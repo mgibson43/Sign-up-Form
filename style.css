@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.logo-container {
+  background-image: url(/imgs/background-img.jpeg);
+  width: clamp(30rem, 40vw, 40rem);
+  height: 100vh;
+  background-color: black;
+}
