@@ -83,7 +83,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 4rem 0 2rem 0;
+  margin: 2rem 0;
 }
 
 .label-input-container {
@@ -100,10 +100,16 @@ legend {
 
 input {
   padding: 0.5rem 0.5rem;
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
   border-radius: 4px;
   width: 15rem;
   height: 2rem;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid blue;
+  box-shadow: 1px 1px 5px #333;
 }
 
 .label-input {
