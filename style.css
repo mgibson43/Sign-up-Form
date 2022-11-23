@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #333;
 }
 
 p {
@@ -56,6 +57,10 @@ p {
   left: 25%;
 }
 
+.photo-author>span {
+  color: #eee;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -70,8 +75,40 @@ p {
   width: min(40rem, 100vw);
 }
 
-.form-text:nth-child(2) {
-  font-weight: 500;
+.form-text {
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 4rem 0 2rem 0;
+}
+
+.label-input-container {
+  border: none;
+
+  display: flex;
+  gap: 5rem;
+}
+
+legend {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+input {
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  width: 15rem;
+  height: 2rem;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
 }
 
 @font-face {
