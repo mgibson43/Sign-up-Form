@@ -122,6 +122,21 @@ input:focus {
   flex-direction: column;
 }
 
+.create-acc {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 60px;
+  border: none;
+  background-color: #596D48;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.create-acc:active {
+  filter: brightness(80%);
+}
+
 .padding-sm {
   padding-left: 5%;
   padding-right: 20%;
