@@ -131,6 +131,8 @@ input:focus {
   color: white;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 4px #aaa;
 }
 
 .create-acc:active {
@@ -140,6 +142,11 @@ input:focus {
 .padding-sm {
   padding-left: 5%;
   padding-right: 20%;
+}
+
+p>a {
+  text-decoration: none;
+  color:#596D48
 }
 
 @font-face {
