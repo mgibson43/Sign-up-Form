@@ -69,11 +69,15 @@ p {
 .form-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
   justify-content: center;
   margin: 0 auto;
+}
 
-  width: min(40rem, 100vw);
+.form-box {
+  width: 100%;
+  box-shadow: 2px 3px 2px #ddd, 1px -1px 2px #ddd;
+  padding-left: 5%;
 }
 
 .form-text {
@@ -109,13 +113,18 @@ input {
 
 input:focus {
   outline: none !important;
-  border: 2px solid blue;
-  box-shadow: 1px 1px 5px #333;
+  border: 1px solid blue;
+  box-shadow: 1px 1px 5px #aaa;
 }
 
 .label-input {
   display: flex;
   flex-direction: column;
+}
+
+.padding-sm {
+  padding-left: 5%;
+  padding-right: 20%;
 }
 
 @font-face {
