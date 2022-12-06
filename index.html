@@ -19,43 +19,43 @@
     <div class="form-container">
       <p class="form-text padding-sm">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
       <p class="form-text padding-sm">You <em>know</em> you want to</p>
-      <div class="form-box">
-        <form class="form" action="#" method="post">
-          <legend>Let's do this!</legend>
-          <fieldset class="label-input-container">
-            <div class="label-input">
-              <label for="first_name">FIRST NAME</label>
-              <input id="first_name" type="text" name="first_name" />
-            </div>
-            <div class="label-input">
-              <label for="last_name">LAST NAME</label>
-              <input id="last_name" type="text" name="last_name" />
-            </div>
-          </fieldset>
-          <fieldset class="label-input-container">
-            <div class="label-input">
-              <label for="email">EMAIL</label>
-              <input id="email" type="email" name="email" />
-            </div>
-            <div class="label-input">
-              <label for="phone_number">PHONE NUMBER</label>
-              <input id="phone_number" type="tel" name="phone_number" />
-            </div>
-          </fieldset>
-          <fieldset class="label-input-container">
-            <div class="label-input">
-              <label for="password">PASSWORD</label>
-              <input id="password" type="text" name="password" />
-            </div>
-            <div class="label-input">
-              <label for="con_password">CONFIRM PASSWORD</label>
-              <input id="con_password" type="text" name="con_password" />
-            </div>
-          </fieldset>
+      <form class="form" action="#" method="post">
+          <div class="form-box">
+            <legend>Let's do this!</legend>
+            <fieldset class="label-input-container">
+                <div class="label-input">
+                  <label for="first_name">FIRST NAME</label>
+                  <input id="first_name" type="text" name="first_name" placeholder="First name" minlength="1" pattern="^[^0-9]+$" required/>
+                </div>
+                <div class="label-input">
+                  <label for="last_name">LAST NAME</label>
+                  <input id="last_name" type="text" name="last_name" placeholder="Last name" minlength="1"/ pattern="^[^0-9]+$" required>
+                </div>
+              </fieldset>
+              <fieldset class="label-input-container">
+                <div class="label-input">
+                  <label for="email">EMAIL</label>
+                  <input id="email" type="email" name="email" placeholder="name@email.com" required/>
+                </div>
+                <div class="label-input">
+                  <label for="phone_number">PHONE NUMBER</label>
+                  <input id="phone_number" type="tel" name="phone_number" placeholder="555-555-5555" required/>
+                </div>
+              </fieldset>
+              <fieldset class="label-input-container">
+                <div class="label-input">
+                  <label for="password">PASSWORD</label>
+                  <input id="password" type="text" name="password" required/>
+                </div>
+                <div class="label-input">
+                  <label for="con_password">CONFIRM PASSWORD</label>
+                  <input id="con_password" type="text" name="con_password" required/>
+                </div>
+              </fieldset>
+          </div>
+          <button class="create-acc" type="submit">Create Account</button>
         </form>
-      </div>
       <div class="btn-container padding-sm">
-        <button class="create-acc">Create Account</button>
         <p class="form-text">Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>

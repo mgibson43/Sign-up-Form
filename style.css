@@ -75,21 +75,21 @@ p {
 }
 
 .form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 20px 0;
   width: 100%;
   box-shadow: 2px 3px 2px #ddd, 1px -1px 2px #ddd;
   padding-left: 5%;
+  padding: 20px 0 40px 5%;
 }
 
 .form-text {
   font-weight: 600;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin: 2rem 0;
-}
 
 .label-input-container {
   border: none;
@@ -126,12 +126,12 @@ input:focus {
   font-size: 16px;
   font-weight: 600;
   padding: 16px 60px;
+  margin-left: 5%;
   border: none;
   background-color: #596D48;
   color: white;
   border-radius: 10px;
   cursor: pointer;
-  margin-bottom: 2rem;
   box-shadow: 2px 2px 4px #aaa;
 }
 
